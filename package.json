@@ -1,0 +1,29 @@
+{
+  "name": "mocha-context-reporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "mocha example -R dot-context-reporter --full-trace --no-exit"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^2.1.2",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.3"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcbachmann/mocha-context-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcbachmann/mocha-context-reporter/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/mocha-context-reporter"
+}
